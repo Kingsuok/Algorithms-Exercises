@@ -11,7 +11,7 @@ public class Ex_1_1_4 {
 
     public static void main(String[] args) {
 
-        int a=3, b=2, c;
+        int a = 3, b = 2, c;
 
         //if (a > b) then c = 0;          Java没有 then
 
