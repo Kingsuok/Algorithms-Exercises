@@ -12,7 +12,7 @@ public class Ex_1_1_11 {
         final int COL = 10;
         boolean[][] array = new boolean[ROW][COL];
         for (int i = 0; i < ROW; i++) {
-            for (int j = 0; j < 10; j++) {
+            for (int j = 0; j < COL; j++) {
                 array[i][j] = StdRandom.bernoulli();
             }
         }
