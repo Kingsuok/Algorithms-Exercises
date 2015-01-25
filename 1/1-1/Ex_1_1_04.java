@@ -7,7 +7,7 @@
  *
  * @author 2bab
  */
-public class Ex_1_1_4 {
+public class Ex_1_1_04 {
 
     public static void main(String[] args) {
 
