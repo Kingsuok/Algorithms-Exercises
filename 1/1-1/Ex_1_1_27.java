@@ -18,11 +18,15 @@ public class Ex_1_1_27 {
         StdOut.print(binomial(count, n, k, p) + "  ");
         StdOut.println(count);
 
+        n = 100;
+        k = 50;
+
         count = new Counter("times");
         StdOut.print(myBinomial(count, n, k, p) + "  ");
         StdOut.println(count);
     }
 
+    //书本案例
     public static double binomial(Counter count, int n, int k, double p) {
         if (n == 0 && k == 0) {
             return 1.0;
@@ -36,6 +40,7 @@ public class Ex_1_1_27 {
         return (1.0 - p) * binomial(count, n - 1, k, p) + p * binomial(count, n - 1, k - 1, p);
     }
 
+    //参考实现
     public static double myBinomial(Counter count, double[][] values, int n, int k, double p) {
         if (n == 0 && k == 0) {
             return 1.0;
